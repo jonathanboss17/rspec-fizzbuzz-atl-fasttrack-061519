@@ -3,16 +3,12 @@
 
 def fizzbuzz(num)
   
-  isThree = false
-  isFive = false
-  
   if(isFive == true && isThree == true)
     print "Fizzbuzz"
   end
   
   if (num % 3 == 0) 
-    isThree = true
-    print "Fhizz"
+    print "Fizz"
   end
   
   if(num % 5 == 0)
