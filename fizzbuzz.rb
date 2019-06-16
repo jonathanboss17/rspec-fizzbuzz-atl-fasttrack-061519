@@ -7,11 +7,11 @@ def fizzbuzz(num)
     print "Fizzbuzz"
   
   
-   else if (num % 3 == 0) 
+   elsif (num % 3 == 0) 
       print "Fizz"
   
   
-   else if(num % 5 == 0)
+   elsif(num % 5 == 0)
       print "Buzz"
     
   end
