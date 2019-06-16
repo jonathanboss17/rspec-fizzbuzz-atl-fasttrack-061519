@@ -14,12 +14,12 @@ def fizzbuzz(num)
    elsif(num % 5 == 0)
       print "Buzz"
     
-  else
+   else
     return nil
    end
 
   
 end
 
-fizzbuzz(9)
+fizzbuzz(3)
 
