@@ -20,5 +20,5 @@ def fizzbuzz(num)
   
 end
 
-fizzbuzz(15)
+fizzbuzz(5)
 
