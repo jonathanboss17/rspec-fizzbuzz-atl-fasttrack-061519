@@ -14,8 +14,8 @@ def fizzbuzz(num)
    elsif(num % 5 == 0)
       print "Buzz"
     
-   else
-    return nil
+  # else
+  #   return nil
    end
 
   
