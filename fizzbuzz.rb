@@ -6,17 +6,21 @@ def fizzbuzz(num)
   isThree = false
   isFive = false
   
+  if(isFive == true && isThree == true)
+    print "Fizzbuzz"
+  end
+  
   if (num % 3 == 0) 
     isThree = true
     print "Fizz"
+  end
   
-   else if(num % 5 == 0)
+  if(num % 5 == 0)
     isFive = true
     print "Buzz"
-  
-  else if(isFive == true && isThree == true)
-    print "Fizzbuzz"
   end
+  
+
   
 end
 
