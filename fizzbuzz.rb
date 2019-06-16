@@ -9,14 +9,12 @@ def fizzbuzz(num)
   if (num % 3 == 0) 
     isThree = true
     print "Fizz"
-  end 
   
-  if(num % 5 == 0)
+   else if(num % 5 == 0)
     isFive = true
     print "Buzz"
-  end
   
-  if(isFive == true && isThree == true)
+  else if(isFive == true && isThree == true)
     print "Fizzbuzz"
   end
   
